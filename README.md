@@ -31,11 +31,11 @@ Simply add this to the tag that contains your telephone number and apply the `te
 phone_number: +44 (0) 151 123 4567
 ---
 
-<a href="{{ phone_number | tel }}">{{ phone_number }}</a>
+<a href=tel:"{{ phone_number | tel }}">{{ phone_number }}</a>
 ```
 
 This will output:
 
 ```antlers
-<a href="00441511234567">+44 (0) 151 123 4567</a>
+<a href="tel:00441511234567">+44 (0) 151 123 4567</a>
 ```
