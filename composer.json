@@ -6,6 +6,7 @@
             "Netnak\\Tel\\": "src"
         }
     },
+    "license": "MIT",
     "authors": [
         {
             "name": "Ben Furfie"
@@ -24,5 +25,5 @@
                 "Netnak\\Tel\\ServiceProvider"
             ]
         }
-    }
+    },
 }
