@@ -1,0 +1,28 @@
+{
+    "name": "netnak/tel",
+    "description": "A modifier that formats telephone numbers for use in links",
+    "autoload": {
+        "psr-4": {
+            "Netnak\\Tel\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ben Furfie"
+        }
+    ],
+    "support": {
+        "email": "hello@netnak.co.uk"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Tel",
+            "description": "Tel addon"
+        },
+        "laravel": {
+            "providers": [
+                "Netnak\\Tel\\ServiceProvider"
+            ]
+        }
+    }
+}
